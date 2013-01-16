@@ -42,10 +42,10 @@ MV_IDBLOCK = (175,170,170,250,175,170,170,170)
 
 #data descriptor for the raw data:
 desc_raw = {	'names':   ('t',  'd',  'x',  'y',  'z',  'l'), 
-					'formats': ('f8', 'B1', 'B1', 'B1', 'B1', 'u2') }
+					'formats': ('f8', 'u1', 'u1', 'u1', 'u1', 'u2') }
 #data descriptor for mean-variance data:
 desc_mv  = {	'names': (  't', 'xm','xv','ym','yv','zm','zv','l'), 
-					'formats': ('f8','B1','B1','B1','B1','B1','B1','u2') }
+					'formats': ('f8','u1','u1','u1','u1','u1','u1','u2') }
 		
 		
 ## converts 4 bytes into a matplotlib timestamp
